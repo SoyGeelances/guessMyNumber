@@ -31,6 +31,7 @@ div#gameTable {
 
 h1 {
     text-align: center;
+    font-size: 3vw;
 }
 
 p.guessNumberClass {
@@ -66,3 +67,40 @@ p.highscoreClass {
     font-size: 1.3em;
 }
 
+
+@media (max-width: 520px) {
+    div#gameTable {
+        width: 100%;
+        padding: 0px;
+    }
+
+    p {
+        font-size: 3.1vw;
+    }
+
+    p.mensajeConsola {
+        font-size: 3.3vw;
+        line-height: 1.5em;
+    }
+
+    p.scoreClass {
+        font-size: 3.5vw;
+    }
+
+    p.highscoreClass {
+        font-size: 3.5vw;
+    }
+
+    .col-2 {
+        width: 48%;
+    }
+
+    input#putNumberID {
+        width: 69%;
+        height: 40px;
+    }
+
+    button {
+        font-size: 3.3vw;
+    }
+}
