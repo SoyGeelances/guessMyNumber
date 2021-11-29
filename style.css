@@ -1,0 +1,68 @@
+body {
+    font-family: 'Press Start 2P', cursive!important;
+}
+
+.box.flex.space-bet {
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+button {
+    padding: 15px 25px;
+}
+
+.space-bet {
+    justify-content: space-between;
+}
+
+div#gameTable {
+    width: 65%;
+    margin: 25px auto;
+    background: #a9a9a9;
+    padding: 50px;
+}
+
+.title {
+    margin: 35px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.guessNumberClass {
+    text-align: center;
+    width: 15%;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 25px;
+    margin: auto;
+}
+
+.bloq-3 {
+    margin-top: 8%;
+}
+
+.col-2 {
+    width: 43%;
+}
+
+input#putNumberID {
+    width: 35%;
+    height: 50px;
+    display: block;
+    margin-bottom: 5%;
+}
+
+p.mensajeConsola {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+p.highscoreClass {
+    font-size: 1.3em;
+}
+

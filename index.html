@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my number</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/normalize.css">
+</head>
+<body>  
+
+    <div id="gameTable">
+        <div class="box flex space-bet">
+            <div class="col-2">
+                <button id="buttAgain">Again!</button>
+            </div>
+            <div class="col-2">
+                <p>Between 1 & 20</p>
+            </div>
+        </div>
+        <!-- TITULO  -->
+        <div class="box title">
+            <div class="col-1">
+                <h1>Guess My Number!</h1>
+            </div>
+        </div>
+        <!-- NUMERO PARA ADIVINAR -->
+        <div class="box guessNumBox">
+            <div class="col-1">
+                <div>
+                    <p class="guessNumberClass"> ? </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BUTTON CHECK -->
+        <div class="box flex space-bet bloq-3">
+            <div class="col-2">
+                <input type="number" name="number" id="putNumberID" autocomplete="off" value="0">
+                <button id="buttCheck">Check!</button>
+            </div>
+            <div class="col-2">
+                <p class="mensajeConsola">Start the Game!</p>
+                <p class="scoreClass">Score: <span class="valueScoreClass">20</span></p>
+                <p class="highscoreClass">Highscore <span class="valueHighscoreClass">0</span></p>
+            </div>
+        </div>
+    </div>  
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
